@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(218, 219, 219);
+}
+.cabecalho{
+    background-color: white;
+    width: 900px;
+    height: 70px;
+    margin-left: 450px;
+}
+.menu{
+    background-color: rgb(24, 23, 23);
+    width: 900px;
+    height: 90px;
+    margin-left: 450px;
+}
+#buttonIndex{
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#buttonIndex:hover{
+    color: rgb(98, 98, 100);
+}
+#buttonContate{
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#buttonContate:hover{
+    color:  rgb(98, 98, 100);
+}
+.rodape{
+    background-color: black;
+    width: 900px;
+    height: 70px;
+    margin-left: 450px;
+}
