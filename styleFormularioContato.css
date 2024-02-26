@@ -1,9 +1,44 @@
 .corpo{
     background-color: white;
     width: 700px;
-    height: 450px;
+    height: 550px;
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 170px;
     margin-left: 450px;;
+}
+#buttonEnviar{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 80px;
+    height: 45px;
+    border-radius: 40px;
+}
+#buttonEnviar:hover{
+    background-color: rgb(204, 204, 204);
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 0px 5px 10px rgb(128, 127, 127);
+}
+.formContato{
+    margin-left: 180px;
+    font-weight: bold;
+}
+.formContato .campoEmail, .campoAssunto, .campoMensagem{
+    margin-top: 20px;
+}
+.formContato #name, #email, #assunto, #mensagem{
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 3px;
+}
+.formContato #name, #email, #assunto{
+    width: 455px;
+    height: 30px;
+}
+#buttonEnviar{
+    margin-top: 20px;
+    margin-left: 180px;
 }
