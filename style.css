@@ -1,45 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(218, 219, 219);
 }
 .cabecalho{
-    background-color: white;
+    background-color: black;
     width: 900px;
-    height: 70px;
-    margin-left: 450px;
+    height: 60px;
+    margin-left: 150px;
+    padding-top: 20px;
 }
-.menu{
-    background-color: rgb(24, 23, 23);
-    width: 900px;
-    height: 80px;
-    margin-left: 450px;
-}
-#buttonIndex{
+.cabecalho li, a{
+    display: inline;
     background: none;
     border: none;
+    list-style: none;
+    text-decoration: none;
+}
+.cabecalho #buttonIndex, #buttonContate{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
+    padding-left: 25px;
 }
-#buttonIndex:hover{
+.cabecalho #buttonIndex:hover, #buttonContate:hover{
     color: rgb(98, 98, 100);
-}
-#buttonContate{
-    background: none;
-    border: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-#buttonContate:hover{
-    color:  rgb(98, 98, 100);
 }
 .rodape{
     background-color: black;
     width: 900px;
     height: 70px;
-    margin-left: 450px;
+    margin-left: 150px;
 }
